@@ -1,0 +1,17 @@
+
+# Python artifacts
+*.pyc
+__pycache__/
+
+# Snort/Network Logs and Data (CRITICAL for security)
+/var/log/snort/*
+/var/log/suricata/*
+*.pcap
+*.cap
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
+
+# Virtual Environment
+/venv/
